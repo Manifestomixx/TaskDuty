@@ -15,7 +15,7 @@ function App() {
     <Navbar/>
     <Routes>
 
-    <Route path='/Home' element={<Home/>} />
+    <Route path='/' element={<Home/>} />
     <Route path='/alltask' element={<AllTask/>} />
     <Route path='/newtask' element={<NewTask/>} />
     <Route path='/edittask' element={<EditTask/>} />

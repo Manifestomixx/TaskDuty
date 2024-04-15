@@ -10,7 +10,7 @@ body{
     height:10vh;
 }
 h2{
-    font-size: 50px;
+    font-size: 35px;
 }
 p{
     color: rgba(115, 113, 113, 1)
@@ -23,7 +23,7 @@ p{
     ;
     color:rgba(250, 249, 251, 1)
     ;
-    width: 15rem;
+    width: 12rem;
 }
 .btnhero:hover{
     background-color: rgba(151, 79, 208, 1)
