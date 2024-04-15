@@ -4,9 +4,11 @@ import image from "../assets/Group 6.png"
 import NewTask from '../pages/NewTask'
 import AllTask from '../pages/AllTask'
 import "../styles/Navbar.css"
-import { Link } from 'react-router-dom'
+import { Link,useMatch } from 'react-router-dom'
 
 const Navbar = () => {
+  const isAbout = useMatch("/AllTask");
+  const isNew = useMatch("/NewTask");
   return (
     <>
     <nav className='container p-3 my-1'>
@@ -19,10 +21,16 @@ const Navbar = () => {
      
       <ul className='list-unstyled d-flex text-center gap-5 mt-3 '>
         <li>
+          {!isNew && "AllTask" && (
+
           <Link className='' to="../NewTask" style={{ textDecoration: 'none', color:"black" }}>New Task</Link>
+          )}
         </li>
         <li>
-          <Link className='' to="./AllTask" style={{ textDecoration: 'none', color:"black" }}>All Tasks</Link>
+          {!isAbout && "/AllTask" && (
+            
+            <Link className='' to="./AllTask" style={{ textDecoration: 'none', color:"black" }}>All Tasks</Link>
+          )}
 
         </li>
      

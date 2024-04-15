@@ -117,7 +117,7 @@ const AllTask = () => {
         </div>
 
         <div className="p-3">
-          <h4 className=" text-center" onClick={ScrollToTop}>Back To Top</h4>
+          <h4 className=" text-center">Back To Top</h4>
         </div>
       </main>
     
