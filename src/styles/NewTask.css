@@ -1,0 +1,54 @@
+.new{
+    width: 126px;
+    background-color: rgba(151, 79, 208, 1);
+    color: white;
+    width: 8rem;
+}
+.new1{
+    width: 126px;
+    /* background-color: rgba(151, 79, 208, 1); */
+    border: 2px solid rgba(151, 79, 208, 1);
+    color: rgba(151, 79, 208, 1);
+    width: 8rem;
+}
+.new1:hover{
+    width: 126px;
+    /* background-color: rgba(151, 79, 208, 1); */
+    border: 2px solid rgba(151, 79, 208, 1);
+    color: rgba(151, 79, 208, 1);
+    width: 8rem;
+}
+.new:hover{
+    width: 126px;
+    background-color: rgba(151, 79, 208, 1);
+    color: white;
+    width: 8rem;
+}
+p{
+    font-size: 18px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+h4{
+    color: rgba(151, 79, 208, 1);
+    font-size: 20px;
+    margin-bottom: 10rem;
+    
+}
+h4:hover{
+    color: rgba(151, 79, 208, 1);
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.addnew{
+    color: rgba(151, 79, 208, 1);
+    cursor: pointer;
+}

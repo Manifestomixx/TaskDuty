@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&family=Workbench&display=swap');
+.text{
+    
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+body{
+    height:10vh;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    color: rgba(115, 113, 113, 1)
+    ;
+    font-style: 24px;
+}
+
+.btnhero{
+    background-color: rgba(151, 79, 208, 1)
+    ;
+    color:rgba(250, 249, 251, 1)
+    ;
+    width: 12rem;
+}
+.btnhero:hover{
+    background-color: rgba(151, 79, 208, 1)
+    ;
+    color:rgba(250, 249, 251, 1)
+    ;
+}
+
+span{
+    color:rgba(151, 79, 208, 1)
+
+    ;
+}
+
+.boldtext{
+    font-size: 40px;
+}
