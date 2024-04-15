@@ -4,6 +4,9 @@ import { HiChevronDown } from "react-icons/hi";
 import "../styles/NewTask.css";
 
 const NewTask = () => {
+  const scrollToTop = () => {
+    window.scroll({ top: 0, behavior: "smooth" });
+  };
   return (
     <>
       <main className='container'>
@@ -39,7 +42,7 @@ const NewTask = () => {
 
       </form>
       <div className='my-md-5 my-sm-5 p-1 '>
-      <h4 className='space text-center'>Back To Top</h4>
+      <h4 className='space text-center'onClick={scrollToTop}>Back To Top</h4>
 
       </div>
     </main>

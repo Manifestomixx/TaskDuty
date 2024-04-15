@@ -5,6 +5,9 @@ import { SlNote } from "react-icons/sl";
 import "../styles/AllTasks.css"
 
 const AllTask = () => {
+  const scrollToTop = () => {
+    window.scroll({ top: 0, behavior: "smooth" });
+  };
   
   return (
     <>
@@ -117,7 +120,7 @@ const AllTask = () => {
         </div>
 
         <div className="p-3">
-          <h4 className=" text-center">Back To Top</h4>
+          <h4 className=" text-center" onClick={scrollToTop}>Back To Top</h4>
         </div>
       </main>
     
