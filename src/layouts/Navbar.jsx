@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
     <nav className='container p-3 my-1'>
       <div className='d-md-flex justify-content-between'>
-      <Link className='' to="/Home">
+      <Link className='' to="/">
       <img src={images} className='logo' alt="logo" /> 
       </Link>
       
